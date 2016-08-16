@@ -1,0 +1,14 @@
+﻿生成启动时间为 2016/8/7 11:31:06。
+     1>项目“c:\Users\arthur\documents\visual studio 2012\Projects\InterviewCode_0807\InterviewCode_0807\InterviewCode_0807.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\程序猿各式装备\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNING /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 01_AssignmentOperator.cpp
+         01_AssignmentOperator.cpp
+     1>c:\users\arthur\documents\visual studio 2012\projects\interviewcode_0807\interviewcode_0807\01_assignmentoperator.cpp(42): error C2784: “errno_t strcpy_s(char (&)[_Size],const char *) throw()”: 未能从“char *”为“char (&)[_Size]”推导 模板 参数
+                 d:\程序猿各式装备\vs2012\vc\include\string.h(109) : 参见“strcpy_s”的声明
+     1>c:\users\arthur\documents\visual studio 2012\projects\interviewcode_0807\interviewcode_0807\01_assignmentoperator.cpp(51): error C2660: “strcpy_s”: 函数不接受 2 个参数
+     1>c:\users\arthur\documents\visual studio 2012\projects\interviewcode_0807\interviewcode_0807\01_assignmentoperator.cpp(67): error C2660: “strcpy_s”: 函数不接受 2 个参数
+     1>已完成生成项目“c:\Users\arthur\documents\visual studio 2012\Projects\InterviewCode_0807\InterviewCode_0807\InterviewCode_0807.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.42
